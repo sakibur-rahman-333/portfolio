@@ -17,9 +17,26 @@ body {
 .align-both {
   align-items: center;
 }
+
+/* Hover */
 .hover-me-btn:hover {
   transform: scale(0.95);
   background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-bar-li a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.hover-on-social-icons:hover {
+  transform: scale(0.95);
+}
+.cv-dwn-btn:hover {
+  transform: scale(0.95);
+}
+.sec-4-a-div-github:hover {
+  transform: scale(0.95);
+}
+.sec-4-a-div-live:hover {
+  transform: scale(0.95);
 }
 .section {
   border-bottom: 2px solid silver;
@@ -63,10 +80,6 @@ nav {
   text-decoration: none;
   font-weight: bold;
   color: #fff;
-}
-
-.nav-bar-li a:hover {
-  color: rgba(0, 0, 0, 0.8);
 }
 
 .extra-nav-bar {
@@ -152,6 +165,7 @@ nav {
   align-items: center;
 }
 .sec-skills {
+  margin-bottom: 2rem;
   justify-content: space-between;
 }
 .sec-3-img {
@@ -234,7 +248,7 @@ nav {
 .sec-4-card {
   width: 20rem;
   height: 15rem;
-  border: 1px solid rgb(220, 219, 219);
+  border: 1px solid black;
   border-radius: 16px;
   background-color: #fff;
   padding: 2rem;
@@ -246,22 +260,27 @@ nav {
   gap: 3rem;
 }
 
-.sec-4-card a {
+.sec-4-a {
   color: #000;
+  font-weight: bold;
   text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 8px;
+  background-color: #a79c9c;
 }
-
+/* .sec-4-a-div {
+  width: 50%;
+} */
 /* Section-5 */
 .sec-5-resume-div {
   margin: 0 auto;
   width: 80%;
-  border: 1px solid grey;
   border-radius: 16px;
   margin-bottom: 1rem;
 }
 .sec-5-resume-img {
   width: 100%;
-  height: 90%;
+  height: 100%;
   object-fit: contain;
   border-radius: 16px;
 }
