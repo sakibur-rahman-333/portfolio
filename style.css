@@ -188,6 +188,20 @@ nav {
   height: 100%;
   background-color: rgb(55, 81, 126);
 }
+.sec-3-progress-bootstrap {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(55, 81, 126);
+}
+.sec-3-progress-tailwind {
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  height: 100%;
+  background-color: rgb(55, 81, 126);
+}
 .sec-3-progress-javascript {
   margin: 0;
   padding: 0;
@@ -212,12 +226,13 @@ nav {
 
 /* Section-4 */
 .section-4 {
-  background-color: #fefaf6;
+  /* background-color: #fefaf6; */
+  background-color: #3c5b6f;
   flex-direction: column;
   align-items: center;
 }
 .sec-4-card {
-  width: 45%;
+  width: 20rem;
   height: 15rem;
   border: 1px solid rgb(220, 219, 219);
   border-radius: 16px;
@@ -251,7 +266,8 @@ nav {
   border-radius: 16px;
 }
 .section-5 {
-  background-color: #eef5ff;
+  /* background-color: #eef5ff; */
+  background-color: #704264;
   flex-direction: column;
   align-items: center;
 }
@@ -300,11 +316,23 @@ footer {
   }
   .sec-1-text,
   .sec-1-img-div,
-  .sec-about,
   .sec-skills {
     width: 100%;
     align-items: center;
     text-align: center;
+  }
+  .sec-about,
+  .sec-skills {
+    align-items: center;
+  }
+  .sec-2-text,
+  .sec-3-text {
+    width: 100%;
+    text-align: center;
+  }
+  .sec-4-cards {
+    flex-direction: column;
+    align-items: center;
   }
   .sec-skills {
     flex-direction: column;
