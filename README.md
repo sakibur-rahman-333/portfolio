@@ -1,4 +1,4 @@
-# Calculator
+# Portfolio
 
 ## Running process
 
@@ -8,10 +8,8 @@
 
 ## Preview(Desktop)
 
-![Home](https://i.imgur.com/UZfGL2F.png)
+![Home](https://i.imgur.com/kEU2m1T.png)
 
 ## Preview(Mobile)
 
-![Home](https://i.imgur.com/JQ4MVxG.png)
-![Home](https://i.imgur.com/NhkPk87.png)
-![Home](https://i.imgur.com/QHJcnNX.png)
+![Home](https://i.imgur.com/LLIgcST.png)
